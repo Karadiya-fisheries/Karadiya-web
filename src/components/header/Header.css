@@ -1,0 +1,10 @@
+.landing {
+    background: white url("../../assets/home.jpg") no-repeat scroll center;
+    background-size:cover ;
+    height: 100vh;
+    margin-bottom: 0;
+
+}
+.wrapper {
+    
+}
