@@ -7,7 +7,7 @@ import './App.css';
 // import Subscribe from './components/subscribe/Subscribe';
 // import Faq from './components/faq/Faq';
 
-import { Navbar ,Header, Features,Download, Subscribe,Faq,Footer} from './components/index';
+import { Navbar ,Header, Features,Download,Analytics, Subscribe,Faq,Footer} from './components/index';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       </header>
       
       <Features/>
+      <Analytics/>
       <Download/>
       {/* <Subscribe/> */}
       <Faq/>
