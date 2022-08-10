@@ -19,7 +19,9 @@ const Header = () => {
     <Fragment>
       <div className="landing" id="#Home">
       <div className="header-cta">
+      <Link to="/owner">
       <Button variant="primary" size="lg" className='btnStyle'>Owner</Button>{' '}
+      </Link>
       <Link to="/applanding">
       <Button variant="secondary" className='btnStyle' style={{marginLeft:'20px'}} >Fisherman</Button>{' '}
       </Link>

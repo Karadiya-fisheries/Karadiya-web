@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Header.css";
 import Button from "../UI/Button/Button";
 import "../UI/Button/Button.css";
-import phoneHeader from "../../assets/new4.png";
+import phoneHeader from "../../assets/new6.png";
 import { BsMouse } from "react-icons/bs";
 import { BiArrowBack } from "react-icons/bi";
 import { useNavigate} from "react-router-dom";
@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <div className="header-left" >
           <h1>
-            <span>KARADIYA Mobile</span>
+            <span>Karadiya Owner Features</span>
             <span>Mobile Application for the Fishing Industry</span>
             {/* <span>messaging system</span> */}
           </h1>

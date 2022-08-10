@@ -22,6 +22,7 @@ const Navbar = () => {
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#download">Download</a></li>
+                <li><a href="#download">Noties</a></li>
                 <li><a href="#faq">FAQS</a></li>
                
 

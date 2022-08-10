@@ -1,5 +1,6 @@
 import './App.css';
 import Applanding from './components/AppLanding/Applanding1';
+import Owner from './components/Owner/Owner';
 // import Download from './components/download/Download';
 // import Feature from './components/features/Feature';
 // import Footer from './components/Footer/Footer';
@@ -21,6 +22,7 @@ function App() {
       <Routes>
        
         <Route path="applanding" element={<Applanding/>}/>
+        <Route path="owner" element={<Owner/>}/>
         <Route path="/" element={<Main />}> 
         </Route>
       </Routes>

@@ -23,13 +23,13 @@ const Download = () => {
           <div className="download-icons">
             <div className="row">
             <div className="download-icon col-sm-12">
-              <FaApple /> <p style={{marginTop:"12px"}}>ios</p>
+              <FaApple /> <p style={{marginTop:"12px",paddingLeft:"5px"}}>ios</p>
             </div>
             <div className="download-icon col-sm-12">
-              <GrAndroid /> <p style={{marginTop:"12px"}}>Android</p>
+              <GrAndroid /> <p style={{marginTop:"12px",paddingLeft:"5px"}}>Android</p>
             </div>
             <div className="download-icon col-sm-12">
-              <FaWindows /> <p style={{marginTop:"12px"}}>Windows</p>
+              <FaWindows /> <p style={{marginTop:"12px",paddingLeft:"5px"}}>Windows</p>
             </div>
           </div>
           </div>
