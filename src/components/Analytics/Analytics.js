@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import './Analytics.css';
 import { IoMdAnalytics } from 'react-icons/io';
 import Chart from '../UI/Chart';
+//import { BaseOptionChartStyle } from'./../chart/BaseOptionChart';
 // import Chart from 'chart.js/auto'
 import AOS from "aos";
 import "aos/dist/aos.css";
