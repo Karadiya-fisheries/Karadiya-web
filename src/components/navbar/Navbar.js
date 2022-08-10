@@ -23,8 +23,7 @@ const Navbar = () => {
                 <li><a href="#features">Features</a></li>
                 <li><a href="#download">Download</a></li>
                 <li><a href="#faq">FAQS</a></li>
-                <li className=""><a href="#" className='btn btn-dark'>LOGIN</a></li>
-                <li className="nav-btn"><a href="#" className='btn btn-dark'>SIGN UP</a></li>
+               
 
             </ul>
         </menu>

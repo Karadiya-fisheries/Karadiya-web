@@ -34,26 +34,34 @@
     color: var(--color-white);
     text-decoration: none;
     margin-left: 1rem;
+    
 }
-.nav-links a:hover {
+/* .nav-links a:hover {
     color :aqua;
-}
-a.btn {
+} */
+/* a.btn {
    
     border-radius: 5px;
     margin-left: 1rem;
     font-weight: 500;
     padding: 5px 8px;
-}
-a.btn-dark {
+    
+    
+
+} */
+/* a.btn-dark {
     border : 2px solid var(--color-white);
     background: transparent;
-}
-a.btn-light {
+    width : 200px;
+ 
+} */
+/* a.btn-light {
     border : 2px solid transparent;
-    background: aqua;
+    background:#0a1930;
     color: var(--color-white);
-}
+    
+    
+} */
 .navbar .menu-icons {
     display: none;
 }

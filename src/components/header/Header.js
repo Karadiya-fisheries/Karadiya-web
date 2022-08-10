@@ -1,20 +1,34 @@
 import React, {Fragment} from 'react';
 import "./Header.css";
 import homeImage from "../../assets/home.jpg";
+import Button from 'react-bootstrap/Button';
+import { useNavigate } from "react-router-dom";
+import {Link} from 'react-router-dom';
+//import Button from "./../UI/Button/Button";
+import Applanding from '../AppLanding/Applanding1';
 
 const Header = () => {
+
+  // const navigate = useNavigate();
+
+  // const routeChange = () => {
+  //   // 👇️ navigate to /contacts
+  //   navigate('/applanding');
+  // };
   return (
     <Fragment>
       <div className="landing" id="#Home">
-        <div className="wrapper">
-         
-          {/* <div className="text-white d-flex flex-column text-center justify-content-center align-items-center h-100">
-          <h2>Welcome to KARADIYA</h2>
-            <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, at velit hic dolore modi harum facilis delectus illum. Aspernatur impedit illum repellendus porro. Pariatur quos aspernatur nostrum recusandae cupiditate numquam.</p>
-          </div> */}
+      <div className="header-cta">
+      <Button variant="primary" size="lg" className='btnStyle'>Owner</Button>{' '}
+      <Link to="/applanding">
+      <Button variant="secondary" className='btnStyle' style={{marginLeft:'20px'}} >Fisherman</Button>{' '}
+      </Link>
         </div>
+        
       </div>
+     
     </Fragment>
+    
   )
 }
 

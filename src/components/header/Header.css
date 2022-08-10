@@ -3,8 +3,28 @@
     background-size:cover ;
     height: 100vh;
     margin-bottom: 0;
+   
 
 }
-.wrapper {
+.header-cta {
+    position: absolute;
+    bottom: 80px;
+    padding-left:12%;
+
+}
+.btnStyle{
+    width : 250px;
+    height: 60px;
+    font-size: 2rem;
+    background-color:#122a4e ;
+    border-color: aqua;
+    border-width: small;
+    border-radius: 8px;
+
     
+}
+.btnStyle:hover {
+    background-color: transparent;
+    border-color: #17345f;
+    background: rgba(14, 31, 56, 0.2);
 }
