@@ -21,15 +21,17 @@ const Download = () => {
         </p>
         <IconContext.Provider value={{ size: "15" }}>
           <div className="download-icons">
-            <div className="download-icon">
-              <FaApple /> <p>ios</p>
+            <div className="row">
+            <div className="download-icon col-sm-12">
+              <FaApple /> <p style={{marginTop:"12px"}}>ios</p>
             </div>
-            <div className="download-icon">
-              <GrAndroid /> <p>Android</p>
+            <div className="download-icon col-sm-12">
+              <GrAndroid /> <p style={{marginTop:"12px"}}>Android</p>
             </div>
-            <div className="download-icon">
-              <FaWindows /> <p>Windows</p>
+            <div className="download-icon col-sm-12">
+              <FaWindows /> <p style={{marginTop:"12px"}}>Windows</p>
             </div>
+          </div>
           </div>
         </IconContext.Provider>
       </div>

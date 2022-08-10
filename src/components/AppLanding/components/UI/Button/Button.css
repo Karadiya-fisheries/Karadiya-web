@@ -33,5 +33,9 @@ a.btn-light {
 @media screen and (max-width: 600px) {
   a.btn {
     display: inline;
+    
+  }
+  a.btn-light {
+    margin-top: 100px;
   }
 }
