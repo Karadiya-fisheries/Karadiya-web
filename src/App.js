@@ -14,6 +14,7 @@ import { BaseOptionChartStyle } from "./components/chart/BaseOptionChart";
 // theme
 import ThemeProvider from "./theme";
 import Login from './components/Login/Login';
+import SignUp from './components/SignUp/SignUp'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="applanding" element={<Applanding/>}/>
         <Route path="owner" element={<Owner/>}/>
         <Route path="login" element={<Login/>}/>
+        <Route path="signup" element={<SignUp/>}/>
         <Route path="/" element={<Main />}> 
         
         </Route>

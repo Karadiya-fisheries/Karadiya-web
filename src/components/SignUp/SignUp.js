@@ -12,8 +12,8 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Image from '../../assets/login.jpg';
-import LoginForm from './LoginForm';
+import Image from '../../assets/signup.jpg';
+import SignUpForm from './SignUpForm';
 
 function Copyright(props) {
   return (
@@ -72,14 +72,13 @@ export default function SignInSide() {
               <LockOutlinedIcon />
             </Avatar>
             <Typography component="h1" variant="h5" sx={{fontSize:20,paddingBottom:"20px"}}>
-              Sign in
+              Sign Up
             </Typography>
-
-            {/* <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
+            {/* <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1,ml:12 }}>
               <TextField
                 margin="normal"
                 required
-                fullWidth
+                
                 id="email"
                 label="Email Address"
                 name="email"
@@ -87,6 +86,7 @@ export default function SignInSide() {
                 autoFocus
                 inputProps={{style: {fontSize: 13}}} 
                 InputLabelProps={{style: {fontSize: 13}}}
+                style ={{width: '85%'}}
               />
               <TextField
                 margin="normal"
@@ -99,23 +99,60 @@ export default function SignInSide() {
                 autoComplete="current-password"
                 inputProps={{style: {fontSize: 13}}} 
                 InputLabelProps={{style: {fontSize: 13}}}
+                style ={{width: '85%'}}
               />
-              <FormControlLabel
-                control={<Checkbox value="remember" color="primary" fontSize='20' />}
-                label="Remember me"
-                
-                
+               <TextField
+                margin="normal"
+                required
+                fullWidth
+                name="password"
+                label="Password"
+                type="password"
+                id="password"
+                autoComplete="current-password"
+                inputProps={{style: {fontSize: 13}}} 
+                InputLabelProps={{style: {fontSize: 13}}}
+                style ={{width: '85%'}}
               />
+              <TextField
+                margin="normal"
+                required
+                width= '150'
+                name="password"
+                label="Password"
+                type="password"
+                id="password"
+                autoComplete="current-password"
+                inputProps={{style: {fontSize: 13}}} 
+                InputLabelProps={{style: {fontSize: 13}}}
+                style ={{width: '85%'}}
+              />
+              <TextField
+                margin="normal"
+                required
+                width= '150'
+                name="password"
+                label="Password"
+                type="password"
+                id="password"
+                autoComplete="current-password"
+                inputProps={{style: {fontSize: 13}}} 
+                InputLabelProps={{style: {fontSize: 13}}}
+                style ={{width: '85%'}}
+              />
+              
               <Button
                 type="submit"
-                fullWidth
+                
+                size="large"
                 variant="contained"
                 sx={{ mt: 3, mb: 2 ,fontSize:15,bgcolor: '#0a1930',"&.MuiButtonBase-root:hover": {
                     bgcolor: "transparent",
-                    color:'#0a1930'
+                    color:'#0a1930',
+                    
                   }}}
               >
-                Sign In
+                Sign Up
               </Button>
               <Grid container>
                 <Grid item xs>
@@ -131,7 +168,7 @@ export default function SignInSide() {
               </Grid>
               <Copyright sx={{ mt: 5 }} />
             </Box> */}
-            <LoginForm />
+            <SignUpForm/>
           </Box>
         </Grid>
       </Grid>
