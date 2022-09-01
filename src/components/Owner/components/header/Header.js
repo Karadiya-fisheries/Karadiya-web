@@ -30,14 +30,14 @@ const Header = () => {
             <span>Mobile Application for the Fishing Industry</span>
             {/* <span>messaging system</span> */}
           </h1>
-          <p className="u-text-small">
+          <p className="u-text-small" style={{marginBottom:'50px'}}>
           Karadiya is the best application for the fishing industry Which provide lot of 
           functionalities and unique features for doing fishing work successfully.
            
           </p>
           <div className="header-cta" data-aos="fade-right">
             
-            <Button text={"Download"} btnClass={"btn-light"} href={"#"} />
+            <Button text={"Features"} btnClass={"btn-light"} href={"#features"} style={{paddingLeft: '100px'}} />
           </div>
         </div>
         <div className="header-right" data-aos="fade-left">

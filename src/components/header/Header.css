@@ -1,5 +1,5 @@
 .landing {
-    background: white url("../../assets/home.jpg") no-repeat scroll center;
+    /* background: white url("../../assets/home.jpg") no-repeat scroll center; */
     background-size:cover ;
     height: 100vh;
     margin-bottom: 0;
@@ -8,18 +8,35 @@
 }
 .header-cta {
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
     padding-left:12%;
 
 }
 .btnStyle{
-    width : 250px;
-    height: 60px;
+    width : 200px;
+    height: 100px;
     font-size: 2rem;
     background-color:#122a4e ;
     border-color: aqua;
-    border-width: small;
+    border-width: "4px";
     border-radius: 8px;
+    /* background-image: linear-gradient(to right, #122a4e, #005985, #008eb8, #00c5e2, #00ffff); */
+    width: 150px;
+  height: 100px;
+  line-height: 78px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  background: linear-gradient(45deg, transparent 5%, #616163 5%);
+  border: 12;
+  border-color:#204a8a ;
+  color: rgb(212, 209, 209);
+  letter-spacing: 3px;
+  box-shadow: 6px 0px 0px #1d447e;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 
     
 }
@@ -28,3 +45,44 @@
     border-color: #17345f;
     background: rgba(14, 31, 56, 0.2);
 }
+.card {
+    perspective: 50rem;
+    position: relative;
+    width : 250px;
+    height: 20px;
+    margin: 2rem;
+    box-shadow: none;
+    background: none;
+  }
+  
+  .card-side {
+    height: 10rem;
+    border-radius: 10px;
+    /* transition: all 0.8s ease; */
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding:2rem;
+    color: white
+  }
+  
+  .card-side.back {
+    transform: rotateY(-180deg);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+  }
+  
+  .card-side.front {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  }
+  
+  .card:hover .card-side.front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side.back {
+    transform: rotateY(0deg);
+  }

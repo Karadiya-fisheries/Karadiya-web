@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react';
+import Box from '@mui/material/Box';
 import './Analytics.css';
 import { IoMdAnalytics } from 'react-icons/io';
 import Chart from '../UI/Chart';
@@ -6,6 +7,7 @@ import Chart from '../UI/Chart';
 // import Chart from 'chart.js/auto'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import AppWebsiteVisits from './../chart/AppWebsiteVisits';
 
 
 const Analytics = () => {
@@ -38,7 +40,45 @@ const Analytics = () => {
         
                 </div> 
                <div className="analytics-right" data-aos="fade-left">
-                   {/* <Chart/> */}
+                 <Box>
+                 <AppWebsiteVisits
+              title="Fishing Trips"
+              subheader="(-5%) than last year"
+              chartLabels={[
+                "01/01/2022",
+                "02/01/2022",
+                "03/01/2022",
+                "04/01/2022",
+                "05/01/2022",
+                "06/01/2022",
+                "07/01/2022",
+                "08/01/2022",
+                "09/01/2022",
+                "10/01/2022",
+                "11/01/2022",
+              ]}
+              chartData={[
+                {
+                  name: "Western Province",
+                  type: "area",
+                  fill: "gradient",
+                  data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30],
+                },
+                {
+                  name: "Southern Province",
+                  type: "area",
+                  fill: "gradient",
+                  data: [44, 55, 41, 67, 22, 43, 21, 41, 56, 27, 43],
+                },
+                {
+                  name: "Northern Province",
+                  type: "area",
+                  fill: "gradient",
+                  data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39],
+                },
+              ]}
+            />
+                 </Box>
                    
                </div>
             </div>

@@ -10,20 +10,25 @@ import Owner from './components/Owner/Owner';
 // import Faq from './components/faq/Faq';
 import {Routes,Route,Navigate} from "react-router-dom";
 import Main from './Main';
-
+import { BaseOptionChartStyle } from "./components/chart/BaseOptionChart";
+// theme
+import ThemeProvider from "./theme";
+import Login from './components/Login/Login';
 
 
 function App() {
   return (
-    <>
+    <ThemeProvider>
     
-      
+      <BaseOptionChartStyle />
       
       <Routes>
        
         <Route path="applanding" element={<Applanding/>}/>
         <Route path="owner" element={<Owner/>}/>
+        <Route path="login" element={<Login/>}/>
         <Route path="/" element={<Main />}> 
+        
         </Route>
       </Routes>
          
@@ -31,7 +36,7 @@ function App() {
         
       
       
-    </>
+    </ThemeProvider>
   );
 }
 

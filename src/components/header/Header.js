@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import {Link} from 'react-router-dom';
 //import Button from "./../UI/Button/Button";
 import Applanding from '../AppLanding/Applanding1';
+import Carosal from './carosal';
 
 const Header = () => {
 
@@ -17,7 +18,10 @@ const Header = () => {
   // };
   return (
     <Fragment>
-      <div className="landing" id="#Home">
+      <div style={{width:'100%',}}>
+      <Carosal/> 
+      {/* <div className="landing" id="#Home"> */}
+        
       <div className="header-cta">
       <Link to="/owner">
       <Button variant="primary" size="lg" className='btnStyle'>Owner</Button>{' '}
@@ -27,8 +31,9 @@ const Header = () => {
       </Link>
         </div>
         
-      </div>
+      {/* </div> */}
      
+     </div>
     </Fragment>
     
   )
