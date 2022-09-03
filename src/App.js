@@ -19,6 +19,7 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 //import Profile from './components/profile1/index';
 import Bidding from './components/Bidding/Bidding';
+import BidoneView from './components/Bidding/BidoneView';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
        
         <Route path="applanding" element={<Applanding/>}/>
         <Route path="owner" element={<Owner/>}/>
+        <Route path="onebid" element={<BidoneView/>}/>
         <Route path="login" element={<Login/>}/>
         <Route path="signup" element={<SignUp/>}/>
         <Route path="bidding" element={<Bidding/>}/>
