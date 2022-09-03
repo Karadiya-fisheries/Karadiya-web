@@ -4,7 +4,9 @@ import { MdConnectWithoutContact } from "react-icons/md";
 import { GiFishingBoat } from "react-icons/gi";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 import { BsCompass } from "react-icons/bs";
-import { BsFillPinMapFill } from "react-icons/bs"
+import { BsFillPinMapFill } from "react-icons/bs";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 export const FeatureList = [
   {

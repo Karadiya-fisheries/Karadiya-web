@@ -5,6 +5,8 @@ import "./App.css";
 // import Download from "./components/download/Download";
 // import Subscribe from "./components/subscribe/Subscribe";
 // import Footer from "./components/footer/Footer";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 import {
   // Navbar,

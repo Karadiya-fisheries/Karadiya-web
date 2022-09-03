@@ -7,6 +7,7 @@ import { BsMouse } from "react-icons/bs";
 import { BiArrowBack } from "react-icons/bi";
 import { useNavigate} from "react-router-dom";
 
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

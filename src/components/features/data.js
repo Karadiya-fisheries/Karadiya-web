@@ -2,6 +2,7 @@ import { GiFishingBoat } from "react-icons/gi";
 import { HiOutlineBookmarkAlt } from "react-icons/hi";
 import { GiArchiveRegister } from "react-icons/gi";
 import { TiWeatherPartlySunny } from "react-icons/ti";
+import React from 'react';
 
 export const featureList = [
     {

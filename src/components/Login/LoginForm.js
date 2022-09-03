@@ -2,6 +2,7 @@ import * as Yup from "yup";
 import { useState } from "react";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { useFormik, Form, FormikProvider } from "formik";
+import React from 'react';
 // material
 import {
   Link,
@@ -53,7 +54,7 @@ export default function LoginForm() {
               .then((res) => console.log(res))
               .catch((err) => console.log(err));
             setTimeout(() => {
-              navigate("/", { replace: true });
+              navigate("/bidding", { replace: true });
             }, 3000);
             setOpen(true);
           },

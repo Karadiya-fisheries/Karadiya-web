@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Image1 from "./../../assets/im61.jpg";
 import Image2 from "./../../assets/im11.jpg";
 import Image3 from "./../../assets/im12.jpg";
+import React from 'react';
 
 function IndividualIntervalsExample() {
   return (

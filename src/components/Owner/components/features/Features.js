@@ -61,7 +61,7 @@ const Features = () => {
              <AssessmentIcon sx={{ fontSize: 30 ,alignItems:'center',color:'#234a85'}}/>
         </div>
 
-        <Typography variant="h5" component="div" sx={{fontSize: 50}}>
+        <Typography variant="h5" component="div" sx={{fontSize: 25}}>
         Report View
         </Typography>
        
@@ -93,7 +93,7 @@ const Features = () => {
              <DownloadIcon sx={{ fontSize: 30 ,alignItems:'center',color:'#234a85'}}/>
         </div>
 
-        <Typography variant="h5" component="div" sx={{fontSize: 50}}>
+        <Typography variant="h5" component="div" sx={{fontSize: 25}}>
          Downloads
         </Typography>
        
@@ -125,7 +125,7 @@ const Features = () => {
              <DirectionsBoatFilledIcon sx={{ fontSize: 30 ,alignItems:'center',color:'#234a85'}}/>
         </div>
 
-        <Typography variant="h5" component="div" sx={{fontSize: 50}}>
+        <Typography variant="h5" component="div" sx={{fontSize: 25}}>
          Add Boart
         </Typography>
        
@@ -157,7 +157,7 @@ const Features = () => {
              <NotificationsIcon sx={{ fontSize: 30 ,alignItems:'center',color:'#234a85'}}/>
         </div>
 
-        <Typography variant="h5" component="div" sx={{fontSize: 50}}>
+        <Typography variant="h5" component="div" sx={{fontSize: 25}}>
         Notification
         </Typography>
        
@@ -189,7 +189,7 @@ const Features = () => {
              <DynamicFeedIcon sx={{ fontSize: 30 ,alignItems:'center',color:'#234a85'}}/>
         </div>
 
-        <Typography variant="h5" component="div" sx={{fontSize: 50}}>
+        <Typography variant="h5" component="div" sx={{fontSize: 25}}>
          Create Article
         </Typography>
        
@@ -221,7 +221,7 @@ const Features = () => {
              <SetMealIcon sx={{ fontSize: 30 ,alignItems:'center',color:'#234a85'}}/>
         </div>
 
-        <Typography variant="h5" component="div" sx={{fontSize: 50}}>
+        <Typography variant="h5" component="div" sx={{fontSize: 25}}>
         Fishing Details
         </Typography>
        

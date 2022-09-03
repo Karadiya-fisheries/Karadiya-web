@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { Link as RouterLink } from "react-router-dom";
+import React from 'react';
 // @mui
 import { alpha } from "@mui/material/styles";
 import {
@@ -28,7 +29,7 @@ const MENU_OPTIONS = [
   {
     label: "Profile",
     icon: "eva:person-fill",
-    linkTo: "/dashboard/owner/profile",
+    linkTo: "/profile",
   },
   {
     label: "Settings",

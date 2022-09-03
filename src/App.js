@@ -10,18 +10,21 @@ import Owner from './components/Owner/Owner';
 // import Faq from './components/faq/Faq';
 import {Routes,Route,Navigate} from "react-router-dom";
 import Main from './Main';
-import { BaseOptionChartStyle } from "./components/chart/BaseOptionChart";
+//import { BaseOptionChartStyle } from "./components/chart/BaseOptionChart";
 // theme
-import ThemeProvider from "./theme";
 import Login from './components/Login/Login';
-import SignUp from './components/SignUp/SignUp'
+import SignUp from './components/SignUp/SignUp';
+//import Profile from './components/Profile/UserAccountDetails';
+import React from 'react'
+import ReactDOM from 'react-dom';
+//import Profile from './components/profile1/index';
+import Bidding from './components/Bidding/Bidding';
 
 
 function App() {
   return (
-    <ThemeProvider>
-    
-      <BaseOptionChartStyle />
+    <>
+      {/* <BaseOptionChartStyle /> */}
       
       <Routes>
        
@@ -29,16 +32,13 @@ function App() {
         <Route path="owner" element={<Owner/>}/>
         <Route path="login" element={<Login/>}/>
         <Route path="signup" element={<SignUp/>}/>
+        <Route path="bidding" element={<Bidding/>}/>
+        {/* <Route path="profile" element={<Profile/>}/> */}
         <Route path="/" element={<Main />}> 
         
         </Route>
       </Routes>
-         
-      
-        
-      
-      
-    </ThemeProvider>
+     </> 
   );
 }
 
