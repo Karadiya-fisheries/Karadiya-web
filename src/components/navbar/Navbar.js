@@ -29,8 +29,8 @@ const Navbar = () => {
                 <li style={{paddingTop:'14px'}}><a href="#download">Notices</a></li>
                 <li style={{paddingTop:'14px'}}><a href="#faq">Faqs</a></li>
                 
-            { !user && (<><li><Link to="/login">LogIn</Link></li>
-              <li><Link to="/signup">SignUp</Link></li></> )}
+            { !user && (<><li style={{paddingTop:'14px'}}><Link to="/login">LogIn</Link></li>
+              <li style={{paddingTop:'14px'}}><Link to="/signup">SignUp</Link></li></> )}
             
             <li style={{paddingTop:'3px'}}>{user && (
               <AccountPopover />

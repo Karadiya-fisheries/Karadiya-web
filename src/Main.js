@@ -12,7 +12,7 @@ export default function Main() {
       
       
       <Features/>
-      <Analytics/>
+      {/* <Analytics/> */}
       <Notices/>
       <Download/>
       {/* <Subscribe/> */}

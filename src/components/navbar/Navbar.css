@@ -27,6 +27,7 @@
 .nav-links li {
     margin-left: 1rem;
     list-style : none;
+    
 }
 .nav-links a {
     font-size: 1.6rem;
@@ -36,9 +37,9 @@
     margin-left: 1rem;
     
 }
-/* .nav-links a:hover {
+.nav-links a:hover {
     color :aqua;
-} */
+}
 /* a.btn {
    
     border-radius: 5px;

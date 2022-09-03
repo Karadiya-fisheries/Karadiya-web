@@ -8,6 +8,7 @@ import Grid from '@mui/material/Grid';
 import { Typography } from "@mui/material";
 import NewCard from './NewCard';
 
+
 //import NewCard  from './NewCard';
 
 import AOS from "aos";
@@ -32,7 +33,7 @@ const Notices = () => {
     });
   }, []);
   return (
-    <section id="Notices">
+    <section id="Notices" sx={{paddingTop: '0px'}}>
       <div className="container Notices">
         <div className="title" data-aos="fade-up">
           <BsFillBookmarkStarFill color="#0a1930" size={30} />
