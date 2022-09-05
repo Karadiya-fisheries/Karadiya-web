@@ -49,9 +49,6 @@ const Navbar = () => {
             <a href="#download">Notices</a>
           </li>
           <li style={{ paddingTop: "14px" }}>
-            <a href="/auction">Auction</a>
-          </li>
-          <li style={{ paddingTop: "14px" }}>
             <a href="#faq">Faqs</a>
           </li>
 

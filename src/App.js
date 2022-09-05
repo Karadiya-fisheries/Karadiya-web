@@ -19,7 +19,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 //import Profile from './components/profile1/index';
 import Bidding from "./components/Bidding/Bidding";
-import LotView from "./components/products/LotView";
 
 function App() {
   return (
@@ -31,8 +30,6 @@ function App() {
         <Route path="owner" element={<Owner />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
-        <Route path="auction" element={<Bidding />} />
-        <Route path="auction/view/:id" element={<LotView />} />
 
         {/* <Route path="profile" element={<Profile/>}/> */}
         <Route path="/" element={<Main />}></Route>
